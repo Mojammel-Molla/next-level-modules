@@ -21,3 +21,10 @@ d = 123;
 // array
 let friends: string[] = ['Abul', 'Kalam', 'Azad'];
 let thereAges: number[] = [45, 69, 56];
+
+//tuple --> array --> order --> types of values
+
+let coordinates: [number, number] = [1, 5];
+
+let nameAge: [number, string, boolean] = [35, 'mozid', true];
+nameAge[0] = 39;
